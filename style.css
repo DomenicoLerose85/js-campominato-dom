@@ -1,0 +1,129 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+    
+
+body {
+    /* background-color: blue; */
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* header */
+
+#header {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+.logo-title {
+    width: 50%;
+    height: 100%;
+}
+
+.title {
+    display: inline-block;
+    margin-left: 120px;
+    font-size: 35px;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 82px;
+}
+
+.logo {
+    height: 45px;
+    width: auto;
+    vertical-align: middle;
+    padding: 0 1em;
+}
+
+.difficulty {
+    width: 50%;
+    height: 100%;
+}
+
+.form1 {
+    text-align: end;
+    line-height: 90px;
+}
+
+#difficulty-selection {
+    background-color: #f0f0f5 ;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 150px;
+    height: 1.6em;
+}
+
+#btn-play {
+    background-color: #b9b9b9;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+    width: 70px;
+    height: 1.6em;
+    margin-right: 1em;
+}
+/* main */
+
+.pointer{
+    cursor: pointer;
+}
+
+#main{
+    background-color: rgb(95, 226, 226);
+    height: calc(100% - 140px); 
+    overflow-y: auto;
+    min-height: 700px;
+}
+
+.main_title{
+    text-align: center;
+    font-size: 23px;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 0%;
+}
+
+.cells-container{
+    position: absolute;
+    top: 35%;
+    left:25%;
+    width: 500px;
+    height:500px;
+    border: 1px solid black;
+}  
+
+.gridrow {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* /main */
+
+/* footer */
+#footer{
+    width: 100%;
+    height: 50px; 
+    background-color: white;
+}
+
+p{
+    margin-left: 120px;
+    font-size: 12px;
+    line-height: 45px;
+}
+
+
+/* /footer */
